@@ -17,21 +17,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWa-fc-UtP">
-                                <rect key="frame" x="184" y="433" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="172.5" y="433" width="69" height="30"/>
+                                <state key="normal" title="스토리 공유"/>
                                 <connections>
                                     <action selector="onClickedBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PYP-Es-mPc"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fishbowl" translatesAutoresizingMaskIntoConstraints="NO" id="GmF-O4-bbe">
-                                <rect key="frame" x="132" y="144" width="150" height="151"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fishbowl2" translatesAutoresizingMaskIntoConstraints="NO" id="GmF-O4-bbe">
+                                <rect key="frame" x="57" y="104" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="9Eo-Be-n5G"/>
+                                    <constraint firstAttribute="height" constant="300" id="azG-aY-v8B"/>
+                                </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jR1-JO-6zg">
+                                <rect key="frame" x="179" y="479" width="56" height="30"/>
+                                <state key="normal" title="피드 공유"/>
+                                <connections>
+                                    <action selector="onClickedBtnFeedShare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="goR-dK-xT2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="jR1-JO-6zg" firstAttribute="top" secondItem="KWa-fc-UtP" secondAttribute="bottom" constant="16" id="0mN-bv-gfE"/>
                             <constraint firstItem="GmF-O4-bbe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Cu-QN-UZE"/>
-                            <constraint firstItem="GmF-O4-bbe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="mA9-i7-lcB"/>
+                            <constraint firstItem="jR1-JO-6zg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CrG-66-naG"/>
+                            <constraint firstItem="GmF-O4-bbe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="mA9-i7-lcB"/>
                             <constraint firstItem="KWa-fc-UtP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mfu-uG-U8I"/>
                             <constraint firstItem="KWa-fc-UtP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tBQ-vB-UvJ"/>
                         </constraints>
@@ -46,7 +59,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="fishbowl" width="150" height="151"/>
+        <image name="fishbowl2" width="1920" height="1280"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
