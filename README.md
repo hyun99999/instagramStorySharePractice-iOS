@@ -18,9 +18,9 @@
 
 ## 완성
 <p>
-<img src = "https://user-images.githubusercontent.com/69136340/106991726-2b1f9480-67ba-11eb-896f-dc54529b9504.png" width="300">
-<img src = "https://user-images.githubusercontent.com/69136340/106991729-2bb82b00-67ba-11eb-953d-88f4826eb001.png" width="300">
-<img src = "https://user-images.githubusercontent.com/69136340/106991732-2ce95800-67ba-11eb-9c31-f6e4590be40d.png" width="300">
+<img src = "https://user-images.githubusercontent.com/69136340/106991726-2b1f9480-67ba-11eb-896f-dc54529b9504.png" width="250">
+<img src = "https://user-images.githubusercontent.com/69136340/106991729-2bb82b00-67ba-11eb-953d-88f4826eb001.png" width="250">
+<img src = "https://user-images.githubusercontent.com/69136340/106991732-2ce95800-67ba-11eb-9c31-f6e4590be40d.png" width="250">
 </p>
 
 ## 출처
